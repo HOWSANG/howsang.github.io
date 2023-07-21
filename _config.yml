@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://howsang.github.io/
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -20,14 +20,14 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 howsang's playground
+title:                 Howsang's playground
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
                        기록의 힘
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               
 
 # A list of keywords for your blog
 keywords:              [coding, blog, git, study]
@@ -35,23 +35,25 @@ keywords:              [coding, blog, git, study]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/burger.png
+logo:                  /assets/img/burger.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                howsang
-  email:               chw6221@gmail.com
+  name:                <H.W> <CHOI>
+  email:               <chw6221@gmail.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Note
-    url:               /note/
   - title:             WhoAmI
     url:               /whoami/
-  - title:             education
+  - title:             Note
+    url:               /note/
+  - title:             Projects
+    url:               /projects/
+  - title:             Education
     url:               /education/
 
 # Add links to the footer.
@@ -86,8 +88,8 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          none # /assets/img/sidebar-bg.jpg
+accent_color:          rgb(10,166,255)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -202,7 +204,7 @@ hydejack:
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
-  no_navbar:           false
+  no_navbar:           True
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.

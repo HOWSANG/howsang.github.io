@@ -59,14 +59,14 @@ To add links to the sidebar, populate the `menu` entry in `_config.yml` with a l
 ```yml
 # file: `_config.yml`
 menu:
-  - title: Blog
-    url:   /blog/
+  - title: WhoAmI
+    url:   /WhoAmI/
+  - title: Note
+    url:   /note/
   - title: Projects
-    url:   /projects/
-  - title: Resume
-    url:   /resume/
-  - title: About
-    url:   /about/
+    url:   /Projects/
+  - title: Education
+    url:   /education/
 ```
 
 ### Adding a link to an external page to the sidebar
