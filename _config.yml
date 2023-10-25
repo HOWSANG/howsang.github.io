@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://howsang.github.io/
+url:                   https://howsang.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:               ''
 
 
 # General settings
@@ -27,10 +27,10 @@ title:                 Howsang's playground
 description:           >
                        기록의 힘
 # A shorter description for the sidebar.
-tagline:               
+tagline:               하우상의 기록
 
 # A list of keywords for your blog
-keywords:              [coding, blog, git, study]
+keywords:              [coding, blog, git, study, daily]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -55,6 +55,8 @@ menu:
     url:               /projects/
   - title:             Education
     url:               /education/
+  - title:             Resume
+    url:               /resume/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -80,8 +82,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
